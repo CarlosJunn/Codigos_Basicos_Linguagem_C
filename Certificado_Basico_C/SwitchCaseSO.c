@@ -24,7 +24,7 @@ int main(){
 			printf("Iniciando Linux...\n");
 			break;
 		default:
-			printf("Opção invalida\n");
+			printf("Opção inválida\n");
 	}
 	
 	system("pause");

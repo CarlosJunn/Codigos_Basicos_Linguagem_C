@@ -9,7 +9,7 @@ int main(int argc,char *argv[])
 	setlocale(LC_ALL,"Portuguese");
 	/*linha a baixo muda a cor do texto*/
 	system("color 0F");
-	printf("Ol· Mundo\n");
+	printf("Ol√° Mundo\n");
 	system("pause"); 
 	system("cls");
 	system("color F0");

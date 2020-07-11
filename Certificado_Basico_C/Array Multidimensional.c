@@ -13,13 +13,13 @@ int main(){
 	float notas[4] = {8,6,9,3};
 	printf("com array\n");
 	printf("Nota3: %.1f\n",notas[2]);
-	//a linha abaixo modifica o caontúdo de um array
+	//a linha abaixo modifica o contador de um array
 	notas[1] = 7;
-	printf("Modificando o caontúdo do array\n");
+	printf("Modificando o contador do array\n");
 	printf("Nota3: %.1f\n", notas[1]);
-	//a linha abaixo cria um array de duas dimensões conforme boletim do aluno
+	//a linha abaixo cria um array de duas dimensÃµes conforme boletim do aluno
 	float boletim[2][4]={{8,7,9,3},{4,5,8,6}};
-	//recuperando a nota de portugues do 1° bimestre
+	//recuperando a nota de portugues do 1Âº bimestre
 	printf("Nota: %.1f\n", boletim[1][0]);
 	system("pause");
 	return 0;
