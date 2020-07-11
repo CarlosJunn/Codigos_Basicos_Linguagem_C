@@ -11,7 +11,7 @@ int main(){
 	printf("Sistemas\n\n");
 	printf("1 - Windows\n");
 	printf("2 - Linux\n");
-	printf("\nEscolha as opções desejadas: ");
+	printf("\nEscolha as opÃ§Ãµes desejadas: ");
 	scanf("%d", &numero);
 	
 	switch(numero){
@@ -24,7 +24,7 @@ int main(){
 			printf("Iniciando Linux...\n");
 			break;
 		default:
-			printf("Opção invalida\n");
+			printf("OpÃ§Ã£o invalida\n");
 	}
 	
 	system("pause");

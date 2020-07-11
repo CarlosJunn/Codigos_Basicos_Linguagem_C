@@ -7,7 +7,7 @@ void teste(void);
 int main(){
 	setlocale(LC_ALL,"portuguese");
 	
-	printf("Teste de Função\n\n");
+	printf("Teste de Funï¿½ï¿½o\n\n");
 	system("pause");
 	system("cls");
 	teste();
@@ -16,5 +16,5 @@ int main(){
 }
 
 void teste(void){
-	printf("Menssagem Função\n\n");
+	printf("Menssagem FunÃ§Ã£o\n\n");
 }

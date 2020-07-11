@@ -16,7 +16,7 @@ int main(){
 		scanf("%d", &n);
 		printf("\nDigite um operador: ");
 		scanf("%s", &operador);
-	/*a linha a baixa  gera um laço finito*/
+	/*a linha a baixa  gera um laÃ§o finito*/
 		for(i = 0;i <= 10;i++){
 			switch(operador){
 				case '+': printf("%d %c %d = %d\n",n ,operador ,i ,n+i);
@@ -27,11 +27,11 @@ int main(){
 					break;
 				case '/': printf("%d %c %d = %d\n",n ,operador ,i ,n/i);
 					break;
-				default: printf("Operador inválido\n");
+				default: printf("Operador invÃ¡lido\n");
 					break;
 			}
 		}
-		printf("\nDeseja Fazer um novo calculo ?(1 - SIM/2 - NÃO)\nResposta: ");
+		printf("\nDeseja Fazer um novo calculo ?(1 - SIM/2 - NÃƒO)\nResposta: ");
 		scanf("%d",&op);
 	}while(op != 2);
 	system("pause");

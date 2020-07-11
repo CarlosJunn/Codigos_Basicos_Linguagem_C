@@ -27,11 +27,11 @@ int main(){
 					break;
 				case '/': printf("%d %c %d = %d\n",n ,operador ,i ,n/i);
 					break;
-				default: printf("Operador inv·lido\n");
+				default: printf("Operador inv√°lido\n");
 					break;
 			}
 		}
-		printf("\nDeseja Fazer um novo calculo ?(1 - SIM/2 - N√O)\nResposta: ");
+		printf("\nDeseja Fazer um novo calculo ?(1 - SIM/2 - N√£O)\nResposta: ");
 		scanf("%d",&op);
 	}while(op != 2);
 	system("pause");

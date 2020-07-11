@@ -15,7 +15,7 @@ int main(){
 	med = (a + b)/2;
 	
 	system("cls");
-	printf("Média : %.2f\n",med);
+	printf("MÃ©dia : %.2f\n",med);
 	
 	if(med>=5)
 		printf("\nAluno aprovado\n");
