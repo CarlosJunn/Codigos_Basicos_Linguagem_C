@@ -9,6 +9,7 @@ char operador;
 
 int main(){
 	setlocale(LC_ALL,"portuguese");
+	/*Laço de repetição com pós condição*/
 	do{
 		system("cls");
 		printf("***Tabuada***\n\n");
@@ -16,7 +17,7 @@ int main(){
 		scanf("%d", &n);
 		printf("\nDigite um operador: ");
 		scanf("%s", &operador);
-	/*a linha a baixa  gera um laço finito*/
+		/*a linha a baixa  gera um um laço de repetição com contador*/
 		for(i = 0;i <= 10;i++){
 			switch(operador){
 				case '+': printf("%d %c %d = %d\n",n ,operador ,i ,n+i);
