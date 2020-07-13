@@ -4,7 +4,7 @@
 
 int main(){
 	float a, b, med;
-	
+	/*a linha abaixo configur o idioma para portugues*/
 	setlocale(LC_ALL,"portuguese");
 	/*lendo duas variaveis*/
 	printf("Digite a Nota 1:");
@@ -16,7 +16,7 @@ int main(){
 	/*limpa a tela e printa o resultado*/
 	system("cls");
 	printf("Média : %.2f\n",med);
-	/*Estrutura condicionais/decisão IF/ELSE*/
+	/*Estrutura condicionais/decisão IF/ELSE */
 	if(med>=5)
 		printf("\nAluno aprovado\n");
 	else
