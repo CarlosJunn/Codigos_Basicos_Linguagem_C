@@ -25,6 +25,8 @@ int main(){
 					break;
 				case '*': printf("%d %c %d = %d\n",n ,operador ,i ,n*i);
 					break;
+                case '/': printf("%d %c %d = %d\n",n*i ,operador ,n ,i);
+					break;
 				default: printf("Operador inválido\n");
 					break;
 			}
